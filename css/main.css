@@ -2029,57 +2029,6 @@ input::-moz-focus-inner {
   margin-right: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## home video link
- * ------------------------------------------------------------------- */
-.home-content__video {
-  position: absolute;
-  top: 7.2rem;
-  right: 12rem;
-}
-
-.home-content__video .video-link {
-  display: block;
-  text-align: center;
-  width: 13rem;
-  outline: none;
-  position: relative;
-}
-
-.home-content__video .video-icon {
-  display: inline-block;
-  height: 8.4rem;
-  width: 8.4rem;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  background-image: url(../images/icons/icon-play.svg);
-  background-repeat: no-repeat;
-  background-position: 55% center;
-  background-size: 24px 27px;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.home-content__video .video-text {
-  display: inline-block;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
-  letter-spacing: .4rem;
-  -webkit-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-}
-
-.home-content__video .video-link:hover .video-text {
-  color: white;
-}
-
-.home-content__video .video-link:hover .video-icon {
-  background-color: #F26522;
-}
 
 /* ------------------------------------------------------------------- 
  * ## home scroll
@@ -2327,34 +2276,10 @@ html.no-csstransitions .home-content__main {
     padding-right: 6rem;
   }
 
-  .home-content__button,
-  .home-content__video {
+  .home-content__button {
     display: inline-block;
     vertical-align: top;
   }
-
-  .home-content__video {
-    position: static;
-    margin-top: 6rem;
-    margin-left: 6rem;
-    height: 6.6rem;
-    line-height: 6.6rem;
-  }
-
-  .home-content__video .video-link {
-    padding-left: 9rem;
-    width: auto;
-  }
-
-  .home-content__video .video-icon {
-    height: 6.6rem;
-    width: 6.6rem;
-    background-size: 12px 13px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
 }
 
 @media only screen and (max-width:1000px) {
@@ -2385,14 +2310,6 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__main h1 br {
-    display: none;
-  }
-
-  .home-content__video {
-    margin-left: 4rem;
-  }
-
-  .home-content__video .video-text {
     display: none;
   }
 
@@ -2440,16 +2357,6 @@ html.no-csstransitions .home-content__main {
 
   .home-content__button {
     margin-top: 3rem;
-  }
-
-  .home-content__video {
-    margin-top: 1.5rem;
-    margin-left: 0;
-  }
-
-  .home-content__video .video-text {
-    display: inline-block;
-    font-size: 11px;
   }
 
   .home-content__scroll .scroll-link {
