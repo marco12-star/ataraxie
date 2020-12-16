@@ -1695,8 +1695,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 130px;
-  height: 37px;
+    width: 160px;
+    height: 160px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1867,8 +1867,8 @@ input::-moz-focus-inner {
   }
 
   .header-logo img {
-    width: 120px;
-    height: 34px;
+    width: 150px;
+    height: 125px;
   }
 
   .s-header.sticky .header-logo {
