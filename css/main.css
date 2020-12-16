@@ -1694,8 +1694,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 150px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1836,6 +1836,7 @@ input::-moz-focus-inner {
   display: block;
   line-height: 72px;
   color: rgba(255, 255, 255, 0.5);
+  transition: .4s;
 }
 
 .header-nav li.current a,
