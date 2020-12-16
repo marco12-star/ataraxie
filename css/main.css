@@ -1911,6 +1911,7 @@ input::-moz-focus-inner {
   .header-nav-wrap .header-nav li a {
     padding: 18px 0;
     line-height: 18px;
+    transition: .4s;
   }
 
   .s-header.sticky .header-nav-wrap {
@@ -2053,22 +2054,39 @@ input::-moz-focus-inner {
   text-align: left;
   color: #FFFFFF;
   position: relative;
-  padding-right: 200px;
+  padding-right: 40px;
 }
 
 .home-content__scroll .scroll-link:hover {
   color: #F26522;
 }
 
+.home-content__scroll::before {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 15px;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    top: 65%;
+    -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 .home-content__scroll::after {
-  content: "";
-  display: block;
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 150px;
-  height: 1px;
-  position: absolute;
-  right: 0;
-  top: 50%;
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 15px;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    top: 35%;
+    -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3251,8 +3269,13 @@ html.no-csstransitions .home-content__main {
 
 .contact-list a {
   color: #FFFFFF;
+  transition: .4s;
 }
-
+.contact-list a:hover {
+  color: #02d9ef; 
+  text-decoration: underline;
+  text-decoration-color: #02d9ef;
+}
 .contact-list li {
   padding-left: 0;
 }
