@@ -1695,7 +1695,7 @@ input::-moz-focus-inner {
 
 .header-logo img {
     width: 130px;
-    height: 150px;
+    height: 92px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
