@@ -2764,7 +2764,6 @@ html.no-csstransitions .home-content__main {
  transform: scale(0.65);
  -webkit-transition: all 0.3s ease-in-out;
  transition: all 0.3s ease-in-out;
- border: 25px solid;
  border-radius: 90px;
  -webkit-transform: scale(0.65);
  margin-top: -8rem;
@@ -2780,66 +2779,21 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * insta
  * ------------------------------------------------------------------- */
+
 @media only screen and (max-width:1200px) {
-  padding-top: 16.2rem;
-  padding-bottom: 16.2rem;
+  
+.insta__block a img {
+    width: 95%;
+    -ms-transform: unset;
+    transform: unset;
+    -webkit-transform: unset;
+    border-radius: 90px;
+    margin-top: 2rem;
 }
-
-@media only screen and (max-width:1000px) {
-  .item-client {
-    padding: 1.5rem 0;
-  }
-
-  .item-client img {
-    -webkit-transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    transform: scale(0.6);
-  }
-
+.insta {
+  padding-bottom: 5rem;
 }
-
-@media only screen and (max-width:800px) {
-  .item-client:nth-child(n) {
-    border-style: none solid solid none;
-  }
-
-  .item-client:nth-child(3n) {
-    border-style: none none solid none;
-  }
-
-  .item-client:nth-last-child(-n+2) {
-    border-bottom-style: none;
-  }
-
 }
-
-@media only screen and (max-width:600px) {
-  .clients-list {
-    margin-top: 6rem;
-  }
-
-  .item-client:nth-child(n) {
-    border-style: none solid solid none;
-  }
-
-  .item-client:nth-child(2n) {
-    border-style: none none solid none;
-  }
-
-  .item-client:nth-last-child(-n+2) {
-    border-bottom-style: none;
-  }
-
-}
-
-@media only screen and (max-width:400px) {
-  .clients-list {
-    margin-top: 3rem;
-  }
-
-}
-
-
 
 /* ===================================================================
  * # howto
@@ -2918,12 +2872,26 @@ box-shadow: 1px 1px 17px -3px rgba(0,0,0,0.7);
 }
 /* responsive */
 @media only screen and (max-width:1200px) {
-  .cats {
-    flex-direction: column;
-  }
+  .cats .cats__items:nth-child(2),
   .cats__items {
+    width: 100%;
     margin: 0 auto;
   }
+  .cats__item {
+    flex-direction: column;
+    margin: 8px 2px;
+    height: 250px;
+  }
+  .cats__item p {
+    display: none;
+  }
+  .cats__img {
+    width: 120px;
+    height: 170px;
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+}
 }
 /* responsive */
 /* ends cats */
