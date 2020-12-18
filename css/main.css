@@ -2869,6 +2869,8 @@ html.no-csstransitions .home-content__main {
 .cats {
   background: #f7d9c4;
   display: flex;
+  padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 .cats .cats__items:nth-child(2) {
   margin-left: 0;
