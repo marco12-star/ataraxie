@@ -1881,7 +1881,7 @@ input::-moz-focus-inner {
   }
 
   .header-menu-toggle {
-    top: 0;
+    top: 1.8rem;
     right: 40px;
   }
 
