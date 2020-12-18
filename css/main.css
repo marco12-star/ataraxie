@@ -1892,7 +1892,7 @@ input::-moz-focus-inner {
     right: auto;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #fbdfab;
     padding: 120px 40px 21px;
   }
 
@@ -2921,56 +2921,25 @@ html.no-csstransitions .home-content__main {
  * # insta
  *
  * ------------------------------------------------------------------- */
-.s-clients {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
-  background-color: #2a2a2a;
-  position: relative;
+.insta {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background: rgb(126, 226, 226);
 }
-
-.s-clients a {
-  color: #ff2ed2;
-}
-
-.s-clients a:hover,
-.s-clients a:focus,
-.s-clients a:active {
-  color: #FFFFFF;
-}
-
-.clients-list {
-  margin-top: 7.2rem;
-}
-
-.item-client {
-  border-color: rgba(255, 255, 255, 0.05);
-  border-width: 1px;
-  border-style: none solid solid none;
+.insta__block {
   text-align: center;
-  padding: 2.4rem 0;
 }
-
-.item-client a {
-  display: block;
+.insta__block a img {
+ width: 65%;
+ -ms-transform: scale(0.65);
+ transform: scale(0.65);
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+ border: 25px solid;
+ border-radius: 90px;
+ -webkit-transform: scale(0.65);
 }
-
-.item-client img {
-  -webkit-transform: scale(0.65);
-  -ms-transform: scale(0.65);
-  transform: scale(0.65);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.item-client:nth-child(4n) {
-  border-style: none none solid none;
-}
-
-.item-client:nth-last-child(-n+4) {
-  border-bottom-style: none;
-}
-
-.item-client a:hover img {
+.insta__block a:hover img {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
