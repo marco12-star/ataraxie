@@ -1860,16 +1860,17 @@ input::-moz-focus-inner {
 
   .header-logo {
     left: 40px;
-    top: 3rem;
+    top: 0;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
   .header-logo img {
-    width: 150px;
-    height: 125px;
+    width: 100px;
+    height: 70px;
   }
+
 
   .s-header.sticky .header-logo {
     top: 50%;
@@ -3114,6 +3115,12 @@ html.no-csstransitions .home-content__main {
 /* responsive */
 /* ends cats */
 
+/* ===================================================================
+ * # contact
+ *
+ * ------------------------------------------------------------------- */
+
+/* ends contact */
 /* ===================================================================
  * # contact
  *
