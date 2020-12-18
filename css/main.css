@@ -2764,7 +2764,6 @@ html.no-csstransitions .home-content__main {
  transform: scale(0.65);
  -webkit-transition: all 0.3s ease-in-out;
  transition: all 0.3s ease-in-out;
- border-radius: 90px;
  -webkit-transform: scale(0.65);
  margin-top: -8rem;
 }
@@ -2787,7 +2786,6 @@ html.no-csstransitions .home-content__main {
     -ms-transform: unset;
     transform: unset;
     -webkit-transform: unset;
-    border-radius: 90px;
     margin-top: 2rem;
 }
 .insta {
@@ -2801,6 +2799,14 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .howto {
   background: rgb(255, 255, 255);
+      padding: 15rem 0;
+}
+.howto__items {
+  display: flex;
+}
+.howto img{
+  width: 150px;
+  height: 150px;
 }
 /* ends howto */
 
@@ -3229,45 +3235,13 @@ footer a:visited {
   background-position: center center;
   background-image: url(../images/icons/icon-arrow-up.svg);
   background-size: 10px 16px;
+      border-radius: 50%;
 }
 
 .cl-go-top a:hover,
 .cl-go-top a:focus {
   background-color: #ff2ed2;
   color: #FFFFFF;
-}
-
-.cl-go-top::before {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.05);
-  position: absolute;
-  top: -115px;
-  left: 50%;
-}
-
-.cl-go-top::after {
-  content: "back to top";
-  display: inline-block;
-  width: 120px;
-  font-size: 1.2rem;
-  line-height: 30px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  color: rgba(255, 255, 255, 0.15);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  -webkit-transform-origin: left bottom;
-  -ms-transform-origin: left bottom;
-  transform-origin: left bottom;
-  position: absolute;
-  left: calc(30px + 15px);
-  top: -165px;
 }
 
 /* ------------------------------------------------------------------- 
