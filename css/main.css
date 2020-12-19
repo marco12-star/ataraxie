@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 600;
   color:#333333;
   text-rendering: optimizeLegibility;
+  text-transform: capitalize;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -1960,7 +1961,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__button {
-  margin-top: 11rem;
+  margin-top: 15rem;
   text-align: right;
 }
 
@@ -2422,22 +2423,11 @@ html.no-csstransitions .home-content__main {
   -ms-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   position: absolute;
-  bottom: 3.9rem;
-  left: 3rem;
+  top: 21rem;
+    left: 14rem;
   z-index: 500;
   border-radius: 20px;
   transition: .4s;
-}
-
-.item-folio__project-link::before {
-  display: block;
-  content: "";
-  height: 1px;
-  width: 3rem;
-  background-color: rgba(255, 255, 255, 0.3);
-  position: absolute;
-  top: 50%;
-  left: -3rem;
 }
 
 .item-folio__project-link:hover,
@@ -2447,9 +2437,6 @@ html.no-csstransitions .home-content__main {
   color: #FFFFFF;
 }
 
-.item-folio__caption {
-  display: none;
-}
 
 /* on hover */
 .item-folio:hover .item-folio__thumb a::before {
