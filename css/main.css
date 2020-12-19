@@ -2424,7 +2424,7 @@ html.no-csstransitions .home-content__main {
   transform: translate3d(-100%, 0, 0);
   position: absolute;
   top: 21rem;
-    left: 14rem;
+    left: 15.5rem;
   z-index: 500;
   border-radius: 20px;
   transition: .4s;
@@ -2595,7 +2595,9 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__slider .slick-dots li.slick-active button,
 .testimonials__slider .slick-dots li:hover button {
+  width: 15px;
   background: #000000;
+  border-radius: 5px;
 }
 
 .testimonials__slide {
@@ -2606,12 +2608,12 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__icon {
   display: block;
-  height: 3.3rem;
-  width: 3.3rem;
+  height: 4.3rem;
+  width: 4.3rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-image: url(../images/icons/icon-quote.svg);
+  background-image: url(../images/icons/heart.svg);
   position: absolute;
   top: 0;
   left: 5.5rem;
@@ -2644,12 +2646,9 @@ html.no-csstransitions .home-content__main {
   font-weight: 700;
   line-height: 1.875rem;
   color: #000000;
+  padding-top: 1.5rem;
 }
 
-.testimonials__position {
-  font-size: 1.4rem;
-  line-height: 2.7rem;
-}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2734,31 +2733,20 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .insta {
   padding-top: 10rem;
-  padding-bottom: 0rem;
+  padding-bottom: 10rem;
   background: rgb(126, 226, 226);
 }
-.insta h1 {
-  margin-bottom: 0;
+.insta h2.display-1 {
+  margin-bottom: 5rem;
+  padding-left: 0;
   text-align: center;
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 .insta__block {
   text-align: center;
 }
 .insta__block a img {
  width: 65%;
- -ms-transform: scale(0.65);
- transform: scale(0.65);
- -webkit-transition: all 0.3s ease-in-out;
- transition: all 0.3s ease-in-out;
- -webkit-transform: scale(0.65);
- margin-top: -8rem;
-}
-.insta__block a:hover img {
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  opacity: 1;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2790,10 +2778,18 @@ html.no-csstransitions .home-content__main {
 }
 .howto__items {
   display: flex;
+  justify-content: space-around;
+}
+.howto__item div {
+  display: flex;
+}
+.howto__item div p{
+  font-size: 17px;
 }
 .howto img{
-  width: 150px;
-  height: 150px;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
 }
 /* ends howto */
 
@@ -2814,10 +2810,12 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .cats {
-  background: #f7d9c4;
   display: flex;
   padding-top: 10rem;
     padding-bottom: 5rem;
+}
+.cats h2 {
+  margin-bottom: 0;
 }
 .cats .cats__items:nth-child(2) {
   margin-left: 0;
