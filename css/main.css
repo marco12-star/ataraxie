@@ -2737,10 +2737,15 @@ html.no-csstransitions .home-content__main {
   background: rgb(126, 226, 226);
 }
 .insta h2.display-1 {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   padding-left: 0;
   text-align: center;
   text-transform: capitalize;
+}
+.insta h3 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 6rem;
 }
 .insta__block {
   text-align: center;
