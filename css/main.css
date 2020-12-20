@@ -2294,7 +2294,6 @@ html.no-csstransitions .home-content__main {
 .s-works {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  background-color: #fbdfab;
   position: relative;
 }
 
@@ -3248,3 +3247,15 @@ footer a:visited {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/*back*/
+
+.wrapper {
+          transition: background .5s ease;
+        }
+
+.s-back {
+
+}
+
+/*back*/
