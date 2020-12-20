@@ -2791,6 +2791,13 @@ html.no-csstransitions .home-content__main {
   height: 30px;
   margin-right: 15px;
 }
+/*responsive*/
+@media only screen and (max-width:760px) {
+  .howto .howto__items {
+    display: block;
+  }
+}
+/*responsive*/
 /* ends howto */
 
 /* ===================================================================
@@ -2834,6 +2841,8 @@ html.no-csstransitions .home-content__main {
     cursor: pointer;
     background: #fff;
     margin: 8px 0;
+    -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.7);
 }
 
 .cats__item:hover {
@@ -2922,6 +2931,9 @@ box-shadow: 1px 1px 17px -3px rgba(0,0,0,0.7);
   line-height: 1.3125;
   text-transform: uppercase;
   letter-spacing: .2rem;
+}
+.s-contact h2 a {
+  text-transform: lowercase;
 }
 
 .s-contact a {
