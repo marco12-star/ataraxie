@@ -2769,6 +2769,10 @@ html.no-csstransitions .home-content__main {
  * # categories
  *
  * ------------------------------------------------------------------- */
+ .categories {
+  padding-top: 0;
+  padding-bottom: 5rem;
+ }
 .cats {
   display: flex;
   padding-top: 10rem;
