@@ -2346,7 +2346,7 @@ html.no-csstransitions .home-content__main {
 .s-works {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  background-color: #ffc7eb;
+  background-color: #fbdfab;
   position: relative;
 }
 
@@ -2423,7 +2423,7 @@ html.no-csstransitions .home-content__main {
   -ms-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   position: absolute;
-  top: 19rem;
+  top: 20rem;
     left: 15rem;
   z-index: 500;
   border-radius: 20px;
