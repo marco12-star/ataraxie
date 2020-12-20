@@ -3167,7 +3167,7 @@ footer a:visited {
  * ------------------------------------------------------------------- */
 .cl-go-top {
   position: absolute;
-  top: -1px;
+  top: 5px;
   right: 6rem;
   z-index: 600;
 }
@@ -3180,7 +3180,7 @@ footer a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: black;
+  background: #333;
   color: white;
   text-align: center;
   text-transform: uppercase;
