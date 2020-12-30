@@ -132,7 +132,7 @@
 
     <!-- works
     ================================================== -->
-    <section id="works" class="s-works s-back target-section" data-background-color="#fbdfab">
+    <section id="works" class="s-works s-back target-section">
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
@@ -391,7 +391,7 @@
     </section> <!-- end s-works -->
         <!-- categories
     ================================================== -->
-    <section id="cats" class="s-works s-back categories  target-section" data-background-color="#BAC696">
+    <section id="cats" class="s-works s-back categories  target-section">
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h2 class="display-1">
@@ -452,7 +452,7 @@
 
     <!-- how to
     ================================================== -->
-    <section class="s-works s-back howto" data-background-color="#80A98B">
+    <section class="s-works s-back howto">
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h2 class="display-1">
@@ -620,11 +620,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/in-view.min.js"></script>
-    <script>
-        var $target = $('body');
-            inView('.s-works').on('enter', function(el){
-              var color = $(el).attr('data-background-color');
-              $target.css('background-color', color );
-            });
-    </script>
 </body>
